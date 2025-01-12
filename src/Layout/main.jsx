@@ -4,7 +4,7 @@ import Header from '../Components/Header/Header'
 
 const main = () => {
   return (
-    <div className='text-xl font-bold'>
+    <div className='text-xl'>
         <Header/>
         <Outlet/>
     </div>

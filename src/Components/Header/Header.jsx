@@ -8,7 +8,8 @@ const Header = () => {
                 <div><h1>Simple-Firebase</h1></div>
                 <div className='flex justify-center items-center gap-10'>
                     <NavLink to={"/"}>Home</NavLink>
-                    <NavLink to={"/login"}>Login</NavLink>
+                    <NavLink to={"/signin"}>SignIn</NavLink>
+                    <NavLink to={"/login"}>LogIn</NavLink>
                 </div>
             </div>
         </div>
