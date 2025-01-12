@@ -5,8 +5,8 @@ const Header = () => {
     return (
         <div>
             <div className='max-w-screen-2xl lg:mx-auto mx-20 flex justify-between items-center py-5'>
-                <div><h1>Simple-Firebase</h1></div>
-                <div className='flex justify-center items-center gap-10'>
+                <div><h1 className='text-3xl font-bold text-emerald-600'>Simple-Firebase</h1></div>
+                <div className='flex justify-center items-center gap-10 font-semibold'>
                     <NavLink to={"/"}>Home</NavLink>
                     <NavLink to={"/signin"}>SignIn</NavLink>
                     <NavLink to={"/login"}>LogIn</NavLink>
